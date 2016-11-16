@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<style>
+/*head*/
+.tb{min-width: 1190px;height: 36px; background: #f5f5f5;}
+.tb .tb1 a{line-height: 36px;}
+.tb .tb1 .a1{ color: red;margin-left:6px;}
+.tb .tb1 .a2{ margin:0 20px 0 8px;}
+.tb .tb1 .wd{width: 565px;}
+.tb .tb1 .wd .wda1{width: 63px;height: 36px; line-height: 36px;background:url(img/2.png) no-repeat right center;}
+.tb .tb1 .wd .wda2,.wda3{width: 84px;background:url(img/2.png) no-repeat right center; text-align: center;}
+.tb .tb1 .wd .wda2 i{width: 11px;height: 11px; background: url(img/3.png);display: block; float: left;margin: 12px 6px 0 17px;}
+.tb .tb1 .wd .wda3 i{width: 10px;height: 10px; background: url(img/4.png);display: block; float: left;margin: 12px 6px 0 17px;}
+.tb .tb1 .wd .wda4{width: 84px; text-align: center; border-right: 1px solid #ccc; height: 12px;margin-top: 12px; line-height: 12px;}
+.tb .tb1 .wd .wda5{width: 76px; text-align: center;background:url(img/2.png) no-repeat right center;}
+.tb .tb1 .wd .wda6{width: 86px; text-align: center;}
+.tb .tb1 .wd .wda7{width: 77px; text-align: center; background:url(img/2.png) no-repeat right center;}
+.tb .tb1 .wd .wda7 i{width: 6px;height: 6px; background: url(img/5.png);display: block; float: left;margin: 14px 6px 0 0;}
+.tl{min-width: 1190px; height: 40px; background: #1baebd;}
+.tp{ height: 40px; background: url(img/1.png) no-repeat; margin-bottom: 15px;}
+/*logo*/
+.logo .logo1 .a1{width: 143px; height: 68px;background: url(img/6.png); display: block;text-indent:-9999em; margin:20px 0 0 0;}
+.logo .dr{width: 940px;height: 116px; margin-bottom: 5px;}
+.logo .dr .ss{width: 760px; height: 95px;margin-top: 20px; }
+.logo .dr .ss .bb{ width: 50px;height: 26px;line-height: 26px; text-align: center; }
+.logo .dr .ss .b1,.logo .dr .ss .bb:hover{background:#ff5400; color:#fff;}
+.logo .dr .ss .xx{width:558px; height: 34px;border: 3px solid #ff5400; border-right:none; background: url(img/7.png) no-repeat 12px center;padding:0 30px;}
+.logo .dr .ss .sr{width:100px;height: 40px;background: #ff5400;color:#fff; font-size: 20px;}
+.logo .dr .ss .gj{ line-height: 18px; margin-left:15px; display: block;}
+.logo .dr .ss .gj2{margin-bottom: 2px; display: block;}
+.logo .dr .ss .down .xd{line-height: 30px; margin-right: 9px;}
+.logo .dr .ss .down .xd3{color:red;}
+.logo .dr .ss .down .gd{width: 40px;height: 30px; border:1px solid #ccc; line-height: 30px;text-align: center;margin-left:55px; background:url(img/8.png) no-repeat 32px center;}
+.logo .dr .m{ width: 94px; height: 112px; background:url(img/9.png); border:1px solid #ccc; position:relative;}
+.logo .dr .m i{position:absolute; left:-20px; top:-1px; display:block; width:20px;height: 20px; background: url(img/10.png);}
+/*菜单*/
+.fw{   padding-left: 0; }
+.fw .cdl{width: 190px; height:525px;}
+.fw .cdl .ts{width: 175px;line-height: 35px; color:#000; background: red; color: #fff;padding-left:15px; font-size:14px; }
+.fw .cdl h2{font-size:14px;}
+.fw .cdl .tsx{width: 188px;height: 489px; border: 1px solid #ff4401; border-top:none;}
+.fw .cdl .tsx .zt{line-height: 26px;height: 26px; width: 188px; background: url(img/11.png) no-repeat 9px center; margin-top:7px;}
+.fw .cdl .tsx .zt h2{margin-left: 41px;}
+.fw .cdl .tsx .zt a{ width: 39px; line-height: 18px; text-align: center; border: 1px solid #ccc; margin-top: 3px; background: url(img/12.png) no-repeat 32px center; margin-right: 8px;}
+.fw .cdl .tsx .ql{ width: 165px; border-bottom: 1px solid #ccc; margin-left:9px; padding-left: 5px; }
+.fw .cdl .tsx .ql .ql1{ line-height: 24px; }
+.fw .cdl .tsx .ql .ql1 .a1{ margin-right: 21px; }
+.fw .cdl .tsx .ql .ql1 .a2{ margin-right: 23px; }
+.fw .cdl .tsx .ql .ql5{margin-bottom: 8px;}
+.fw .cdl .tsx .ql .ql3{ position: relative; width: 170px;}
+.fw .cdl .tsx .ql .ql3 i{ position: absolute; width: 9px;height: 11px; background: url(img/13.png); right:1px;top:-1px; display: block; }
+.fw .cdl .tsx .gj3{ border: none; }
+.fw .fwr{width: 990px;}
+.fw .fwr .up{border-bottom: 2px solid #ff5400; width: 990px; margin-top:3px;}
+.fw .fwr .up a{ font-size: 16px; line-height: 31px; text-align: center; font-weight: bold;}
+.fw .fwr .up .tm{width:77px;  color:red;}
+.fw .fwr .up .tm1{width: 80px;color:red;}
+.fw .fwr .up .tm2{width: 74px;color:red;}
+.fw .fwr .up .s1{width: 0; height: 14px;border: 1px solid #ccc;margin:8px 33px 0 15px;}
+.fw .fwr .up .tm3{line-height: 31px; margin-right: 31px; font-size:14px;}
+.fw .fwr .up .ts{ width: 140px; background: url(img/14.png) no-repeat 62px center; text-align: left;}
+.fw .fwr .up .xf{font-size: 12px; line-height: 26px;margin-top:5px;}
+.fw .fwr .tp{ margin:10px 10px 0 0;}
+.fw .fwr .gz{ width: 290px; margin-top: 10px; }
+.fw .fwr .gz .aq{width: 288px;height: 98px;border: 1px solid #ccc;}
+.fw .fwr .gz .aq a{ line-height: 26px; text-align: center; }
+.fw .fwr .gz .aq .a1{ width: 56px;border-right: 1px solid #ccc; font-weight: bold; }
+.fw .fwr .gz .aq .a2{ width: 57px; background: #f7f7f7; border-bottom: 1px solid #ccc;}
+.fw .fwr .gz .aq .a3{ width: 59px; background: #f7f7f7; border-bottom: 1px solid #ccc;}
+.fw .fwr .gz .aq .a4{ width: 57px; background: #f7f7f7; border-bottom: 1px solid #ccc;}
+.fw .fwr .gz .aq .a5{ width: 57px; background: #f7f7f7; border-bottom: 1px solid #ccc; border-right: 1px solid #f7f7f7;}
+.fw .fwr .gz .aq .a5:hover,.fw .fwr .gz .aq .a2:hover,.fw .fwr .gz .aq .a3:hover,.fw .fwr .gz .aq .a4:hover{border-bottom: none; background:#fff;font-weight:bold;}
+.fw .fwr .gz .aq .my{ width: 278px;margin:10px 0 0 10px; }
+.fw .fwr .gz .aq .my .myl{height: 26px;}
+.fw .fwr .gz .aq .my .myl a{display: block;line-height: 26px;}
+.fw .fwr .gz .aq .my .myl .am{ margin-right: 15px; }
+.fw .fwr .gz .hi{width: 288px;height: 120px;border: 1px solid #ccc; border-top:none;}
+.fw .fwr .gz .hi .tx{width: 60px;height: 60px;background: url(img/16.png); margin:9px 10px 0;}
+.fw .fwr .gz .hi .hy .hyr{width: 208px;}
+.fw .fwr .gz .hi .hy .hyr h2{ line-height: 26px; margin-top:7px;font-size: 12px; width: 208px; }
+.fw .fwr .gz .hi .hy .hyr a{ color: #f55732; background-color:#fff0e8;border:1px solid #ccc; line-height: 28px;}
+.fw .fwr .gz .hi .hy .hyr .lq{width: 108px;height: 28px;  }
+.fw .fwr .gz .hi .hy .hyr .lq i{width: 18px;height: 18px;float:left; display: block;background: url(img/17.png); margin:4px 7px 0 4px;}
+.fw .fwr .gz .hi .hy .hyr .lqr{width: 74px;height: 28px; margin-left:5px;}
+.fw .fwr .gz .hi .down{width: 278px;margin-top: 12px; margin-left: 10px;}
+.fw .fwr .gz .hi .down a{ background-color:#ff4400;line-height: 35px; color:#fff;}
+.fw .fwr .gz .hi .down .dl{width: 100px; height: 35px; }
+.fw .fwr .gz .hi .down .dl i{width: 13px;height: 16px; background: url(img/18.png);display: block; float: left; margin:9px 11px 0 27px;}
+.fw .fwr .gz .hi .down .dl1{width: 75px; margin:0 5px; text-align: center;}
+.fw .fwr .gz .hi .down .dl2{width: 75px; text-align: center;}
+.fw .fwr .gz .bm{width: 276px;height: 259px;border:1px solid #ccc;background: #f4f4f4;border-top:none; padding-left:12px;}
+.fw .fwr .gz .bm h2{line-height: 36px;width: 276px;}
+.fw .fwr .gz .bm .dh{width: 56px; height:63px;border: 1px solid #ccc; border-radius:2px; background:#fff;}
+.fw .fwr .gz .bm .dh .s1{width: 15px; height: 21px; background: url(img/19.png); display:block; margin:10px auto 0;}
+.fw .fwr .gz .bm .dh p{margin-top:4px; text-align: center; line-height: 18px; }
+.fw .fwr .gz .bm .dh a{width:6px; height:3px; display: block; background: url(img/20.png); margin:0 auto;}
+.fw .fwr .gz .bm .dh{margin-right: 10px;margin-bottom:10px;}
+.fw .hf{width: 1171px;height: 64px; border:1px solid #e8e8e8; margin-top:11px; background:#f5f5f5; padding-left:17px;}
+.fw .hf .dq{width: 238px;margin-top: 12px;}
+.fw .hf .dq .dql{width: 45px; background: url(img/21.png) no-repeat right center; margin-right: 14px;}
+.fw .hf .dq .dqr{width:179px; height: 20px; line-height: 20px;  position: relative;}
+.fw .hf .dq .dqr .a1{margin-right: 16px;}
+.fw .hf .dq .dqr i{position: absolute; top:0; right: 0; display: block; width:9px; height: 11px; background: url(img/22.png);}
+.fw .hf .dq .dqrx i{position: absolute; top:0; right: 58px; display: block; width:9px; height: 11px; background: url(img/22.png);}
+.fw .hf .dq1{margin-left: 39px; width: 232px;}
+.fw .hf .dq1 .dqr1{width: 173px;}
+.fw .hf .dq2{width: 157px;}
+.fw .hf .dq2 .dqr3{ width: 98px; }
+.fw .hf .dq2 .dqr3 .a1{margin-right: 14px;}
+.fw .hf .dq2 .dqr3 .a2{margin-right: 0;}
+.fw .hf .zz{width: 109px; margin-left: 34px;margin-top: 6px;}
+.fw .hf .zz .zl{ width: 57px;height: 43px; background: url(img/23.png); margin-right: 10px;}
+.fw .hf .zz .zr{width: 30px;height: 30px; background: red;color: #fff; text-align: center; margin-top:6px;}
+.fw .hf .zz .s1{width: 0; height: 42px; border:1px solid #ccc;margin-top: 4px;}
+.fw .hf .mn{width: 259px; margin-left:25px; position: relative;}
+.fw .hf .mn .ml{width: 71px;height: 69px; background: url(img/24.png); position: absolute; top:-5px;left: 0;}
+.fw .hf .mn .zm{margin-left: 95px;}
+.fw .hf .mn .zm h2{ color: red; font-size: 19px; line-height: 23px; margin-top: 11px; }
+.fw .hf .mn .zm p{ font-size: 15px; line-height: 20px; }
+.fw .hf .mn .dw{width: 56px; height: 27px;display: block;background: url(img/25.png); position: absolute; top:-1px; right:0;}
+/*男装*/
+.nz{margin-top:10px; }
+.nz .nzl{width: 880px;}
+.nz .nzl .ns{width: 435px;}
+.nz .nzl .ns .up{ width:435px;height: 24px;background: #f5619c; color: #fff; line-height: 24px;}
+.nz .nzl .ns .up h2{ margin:0 24px 0 14px; }
+.nz .nzl .ns .up .a1{ width: 111px;height: 15px; line-height: 15px; padding-top:2px; background: #fddfeb; color:#f5619c; margin-top:4px; position:relative; padding-left: 5px; }
+.nz .nzl .ns .up .a1 i{width: 5px;height: 10px; background: url(img/26.png); display: block; position:absolute; left:-5px; top:4px; }
+.nz .nzl .ns .up .ar{ color: #fff; margin-right: 14px; }
+.nz .nzl .ns .up .a2{ color: #fff; }
+.nz .nzl .ns .up .s2{width: 0; height: 13px; border: 1px solid #fff; margin:6px 6px 0;}
+.nz .nzl .ns .sx{width: 433px;border: 1px solid #ccc;height: 245px; border-top:none; position:relative;}
+.nz .nzl .ns .sx .sl1{margin-top: 13px;}
+.nz .nzl .ns .sx .sxl{width: 300px;line-height: 26px; padding-left:15px;}
+.nz .nzl .ns .sx .sxl a{margin-right: 13px;}
+.nz .nzl .ns .sx .sl4{border-bottom:1px solid #ccc; padding-bottom:3px; margin-bottom: 5px;}
+.nz .nzl .ns .sx .dw{width: 100px;height: 245px; display: block; background: url(img/27.png); position:absolute;top:0; right:-1px;  }
+.nz .nzl .ns .sx .dw h2{ margin-top:198px; color: #fff; margin-left: 8px; line-height: 19px; font-size:15px;}
+.nz .nzl .ns .sx .dw p{color: #fff;margin-left: 8px;}
+.nz .nzl .ydd{ margin-top:20px;}
+.nz .nzl .ns .yd{ height: 210px;}
+.nz .nzl .ns .yd .ydl{line-height: 30px;}
+.nz .nzl .ns .yd .dw{width: 90px;height: 185px; background: url(img/28.png);position:absolute;top:14px; right:10px; }
+.nz .nzl .xz{margin-top: 20px; margin-bottom: 23px;}
+.nz .nzl .xz1{margin-top: 20px; margin-bottom: 23px;}
+.nz .nzl .ns .wz{ height: 290px; width: 433px; }
+.nz .nzl .ns .wz .wzl{width: 107px;height: 220px; background: url(img/31.png); position: relative; margin-right:1px;}
+.nz .nzl .ns .wz .wz2{width: 108px;}
+.nz .nzl .ns .wz .wzl3{margin-right: 0;}
+.nz .nzl .ns .wz .wzl .da{width: 107px;height: 35px; background: #c23432;line-height: 35px; text-align: center; position: absolute; bottom: 0; left: 0; color: #fff; font-weight: bold;}
+.nz .nzl .ns .wz .xg{line-height: 28px; margin-top: 9px; margin-left: 15px;}
+.nz .nzl .ns .wz .xg .da{margin-right:13px;}
+.nz .nzl .ns .wz .xg .da4{margin-right: 29px;}
+.nz .nzl .ns .wz .xg2{margin-top: 0;}
+.nz .nzl .ns .wz .lz{ line-height: 30px; margin-left: 15px;}
+.nz .nzl .ns .wz .t1{width: 190px;height: 190px;background: url(img/32.png); margin:15px 13px 0 0;}
+.nz .nzl .ns .wz .lz .da{margin-right:13px;}
+.nz .nzl .ns .wz .lz .da4{margin-right: 0;}
+.nz .nzl .ns .wz .lz1{margin-top: 11px;}
+.nz .nzl .ns .wz .lz5{border-bottom: 1px solid #ccc;padding-bottom: 11px;}
+.nz .nzl .ns .wz .down{width: 433px;height: 69px; border-top:1px solid #ccc;}
+.nz .nzl .ns .wz .down .dz .a1{margin-top:14px;margin-left: 20px;}
+.nz .nzl .ns .wz .down .dz .d1{width: 102px; margin-left:7px;}
+.nz .nzl .ns .wz .down .dz .d1 h2{font-size: 14px; margin-top:17px; line-height: 21px;}
+.nz .nzl .ns .wz .down1 {margin-left:0;}
+.nz .nzr{width: 286px; height: 2242px; border:1px solid #ccc; background: #f5f5f5;}
+.nz .nzr .a1{width: 18px; height: 18px;background: url(img/35.png); margin:22px 5px 0 14px;}
+.nz .nzr .fx{font-size: 15px;line-height: 35px;margin-top:14px;}
+.nz .nzr .a2{width: 76px;height: 16px;border:1px solid red; color:red; line-height: 16px; padding:2px 0 0 4px; margin:20px 15px 9px 0; background:#fff;}
+.nz .nzr .nzu{ width: 256px;height:1505px;border: 1px solid #ccc; background:#fff; margin-left: 14px;}
+.nz .nzr .nzu .nzl{width: 240px;height:117px;border-bottom: 1px solid #ccc; padding:17px 0 0 16px;}
+.nz .nzr .nzu .nzl .dr{width: 120px;}
+.nz .nzr .nzu .nzl .dr h3{line-height: 24px; }
+.nz .nzr .nzu .nzl .dr p{line-height: 34px;}
+.nz .nzr .nzu .nzl .dr .p1{ line-height:59px; font-weight:bold; }
+.nz .nzr .nzu .l9{margin:21px;}
+.nz .nzr .nzu .ss{width: 256px; height: 34px; line-height: 34px; }
+.nz .nzr .nzu .ss .as{margin-left: 86px;}
+.nz .nzr .nzu .ss .as img{ margin:9px 7px 0 0; }
+.nz .nzr .fx2{margin-top: 8px;}
+.nz .nzr .a8{margin-top:16px;}
+.nz .nzr .xyy{width: 256px;height: 563px;border:1px solid #ccc; background: #fff;margin-left: 14px;}
+.nz .nzr .xyy .xyl{margin-top:12px;}
+.nz .nzr .xyy .xyl .ll{margin-right:14px; margin-left: 14px;}
+.nz .nzr .xyy .xyl .d2 .xp{line-height: 24px; font-size: 14px;}
+.nz .nzr .xyy .xyl .d2 p{line-height: 22px;}
+.nz .nzr .xyy .sh{line-height: 32px; width: 242px; margin-left: 14px;}
+.nz .nzr .xyy .yt{width: 256px; border-bottom: 1px solid #ccc; padding-bottom: 14px;}
+.nz .nzr .xyy .yt .tk2{margin:0 6px;  }
+.nz .nzr .xyy .yt .tk1{margin-left: 14px;}
+.nz .nzr .xyy .sh1{line-height: 46px; width: 242px;border-bottom: 1px solid #ccc; margin-left: 0px; padding-left:14px;}
+.nz .nzr .hyp{width: 256px; height: 35px; border:1px solid #ccc;border-top:none; margin-left: 14px;background:#fff; line-height: 35px; ;}
+.nz .nzr .hyp i{width: 15px;height: 16px; display: block; float: left; background:url(img/38.png); margin:10px 7px 0 86px ; }
+.nz .px{margin-top:10px;}
+/*星店*/
+.xd1{border:1px solid #ccc; border-right: none; border-bottom: none;border-top: none;}
+.xd1 .xdl{width: 169px;height:363px;border-bottom:1px solid #ccc;border-top:1px solid #ccc; border-right: 1px solid #ccc;padding:0 14px;}
+.xd1 .xdl h2{ line-height: 41px;  }
+.xd1 .xdl .mx{line-height: 41px; }
+.xd1 .xdl .wy{ width: 169px; height: 148px; background: url(img/31.png); position:relative;}
+.xd1 .xdl .wy .dw{width: 169px; height: 48px;background:#f5f5f5; position:absolute; bottom:0; left:0;}
+.xd1 .xdl .wy .dw h3{line-height: 19px; margin-top:9px;text-align: center; }
+.xd1 .xdl .wy .dw p{ text-align: center; line-height: 19px;}
+.xd1 .xdl .fd{margin-top: 13px;}
+.xd1 .xdl .fd .d1{ width: 70px;height: 98px; }
+.xd1 .xdl .fd .d2{margin-right:11px;}
+.xd1 .xdl .fd .d1 img{margin-bottom:8px;}
+.xd1 .xdl .hf{line-height: 22px;}
+.xd1 .xdl .hs{line-height: 34px;}
+/*爱花钱*/
+.hq .hqh{width: 1190px; line-height: 52px;}
+.hq .hy .hyl{width: 135px;height: 180px; background: url(img/31.png); position: relative; margin-right: 10px;}
+.hq .hy .hyl .dw{width: 110px;height: 25px; line-height: 25px; text-align:center; background: #fff; position:absolute; bottom: 10px; left: 12px; }
+.hq .hqr{width: 318px;}
+.hq .hqr .gd{width: 39px; height: 16px; border: 1px solid #ccc; background: url(img/43.png) no-repeat 32px 6px; line-height: 14px; padding-top: 2px; padding-left:5px;}
+.hq .hqr .qz{width: 318px; border-top:1px solid #ccc; margin-top: 6px;}
+.hq .hqr .qz .xf{ margin-top:16px; }
+.hq .hqr .qz .xf .aj{width: 110px;height: 134px; margin-left: 30px; position: relative;}
+.hq .hqr .qz .xf .aj h3{line-height: 24px; text-align: center;}
+.hq .hqr .qz .xf .aj .s1{ width: 8px; height: 14px; background: url(img/45.png);position: absolute; top:62px;left:-17px;  }
+.hq .hqr .qz .xf .aj .s2{ width: 8px; height: 14px; background: url(img/46.png);position: absolute; top:62px;right:-17px;  }
+.hq .hqr .qz .xf .zs{ width: 140px; margin-left: 37px; }
+.hq .hqr .qz .xf .zs p{line-height: 24px;}
+.hq .bg{margin-top: 20px; border-left:1px solid #ccc;}
+.hq .bg li{border:1px solid #ccc; border-left:none;}
+.hq .bg .bgl{width: 382px; height:246px; padding:17px 0 0 13px; }
+.hq .bg .bgl .hc{margin-top:8px; width: 296px; margin-bottom: 8px;}
+.hq .bg .bgl .tx{line-height:37px; margin-right: 12px; color:#ccc;}
+.hq .bg .bgl .nr{width: 185px;height: 195px; background: url(img/31.png); position:relative;}
+.hq .bg .bgl .nr .xl{width: 29px; height: 24px; display: block; background: #db6118; line-height: 24px; position:absolute; top:0; right:0; color: #fff; text-align: center;}
+.hq .bg .bgl .nr p{ text-align: center; line-height: 20px; color:#fff;}
+.hq .bg .bgl .nr .p1{margin-top:11px;}
+.hq .bg .bgl .yq{width: 265px; height:195px; background: url(img/31.png); position: relative; }
+.hq .bg .bgl .yq .s4{width: 35px;height: 195px; background: #fff; opacity:.8;}
+.hq .bg .bgl .yq .s5{width: 35px;height: 195px; background: #fff; opacity:.8;}
+.hq .bg .bgl .yq .s6{width: 11px;height: 17px; background:url( img/48.png) no-repeat; position:absolute; top:90px; left:13px;}
+.hq .bg .bgl .yq .s7{width: 11px;height: 17px; background:url( img/49.png) no-repeat; position:absolute; top:90px; right:13px;}
+.hq .bg .bgl .yq .s8{width: 14px;height: 14px; background:url( img/50.png) no-repeat; position:absolute; top:15px; right:98px;}
+.hq .bg .bgl .yq .s3{width: 0; border:4px solid transparent; border-left:4px solid #386265;  ; position:absolute; top:20px; right:113px; display: block;}
+.hq .bg .bgl .yq .s9{width: 81px;height: 24px;line-height: 24px; text-align: center; border:1px solid #ccc;background:#386265; color:#fff; position:absolute; top:10px; left:62px;}
+.hq .bg .bgl .wj{text-align: center;margin-left:10px; line-height: 33px;}
+.hq .bg .bgl .wj .dz{height: 26px; background: #ff4400; color:#fff; line-height: 26px;text-align: center; display: block; border-radius:2px;}
+.hq .bg .bgl3{width: 197px; padding-left:0;}
+.hq .bg .bgl3 .hc{width: 76px; margin-left:14px;}
+.hq .bg .bgl3 .tp{margin:12px 13px 11px 15px; width: 169px; height: 112px;}
+.hq .bg .bgl3 .sb{margin-left:14px; margin-right:10px;}
+.hq .bg .bgl3 .sbd p{line-height: 20px;}
+.hq .bg .bgl3 .a6{width: 170px;height: 98px; margin-left: 14px;}
+.hq .bg .bgl3 .a6 p{line-height: 28px; text-align: center;}
+.hq .bg .bgl3 .a7{width: 80px; height: 100px; margin-left: 14px;}
+.hq .bg .bgl3 .a7 p{line-height: 30px; text-align: center;}
+/*热卖*/
+.rm{margin-top:13px;}
+.rm .rmh{line-height: 33px; }
+.rm .rmr a{border-right: 1px solid #ccc;line-height: 14px;margin-top:8px;text-align:center;}
+.rm .rmr .a1{magin:0 11px;  width: 43px;  }
+.rm .rmr .a2{width: 55px;}
+.rm .rmr .a8{width: 51px;}
+.rm .rmr .a11{width: 53px;}
+.rm .rmr .a13{width: 43px; border-right: none;}
+.rm .kz{ border-top:1px solid #ccc; width: 595px;  border-bottom:1px solid #ccc; }
+.rm .kz .nzk{ border-right:1px solid #ccc; width: 235px; height: 421px; padding-left: 14px;}
+.rm .kz .nzk .a1{width: 155px; height: 272px; }
+.rm .kz .nzk h3{width: 20px; color: red; margin-top:14px; font-size: 12px; line-height: 20px;  font-family: '微软雅黑';}
+.rm .kz .nzk p{line-height: 20px; color: #ccc;}
+.rm .kz .nzk .a1{margin-top:10px;}
+.rm .kz .p3{width: 218px; line-height: 18px; margin-top:6px; margin-bottom:20px;}
+.rm .kz .nzk span{line-height: 28px; color:#ccc;}
+.rm .kz .nzk .s2{margin-right:15px;}
+.rm .kz .px{width: 172px;height: 210px;border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+.rm .kz .px .a2{margin:63px 19px 26px 19px;}
+.rm .kz .px .s1{ margin-left:11px; line-height: 20px; color: red;font-family: '微软雅黑'; width: 114px; }
+.rm .kz .px .s2{ margin-left:11px; line-height: 24px; color:#ccc; }
+.rm .kz .px2{width: 171px;}
+.rm .kz .px2 .by{width: 26px; margin-top:3px; height: 14px; line-height: 14px; text-align: center; background:#8cbf4c; margin-right:11px;}
+.rm .kz .wb{border-bottom:none;}
+.rm .kz .wr{border-right:none;}
+.rm .a57{text-align: center; width: 1148px;height: 90px; margin:15px 20px;}
+/*售后*/
+.bz{border-top:1px solid #ccc; border-bottom:2px solid #ff5400; }
+.bz li{ margin:30px 0 30px 24px; }
+.bz .bzl{border-right:1px solid #ccc; height: 95px; width: 271px;}
+.bz .bzl .d1{width: 271px; margin-bottom: 11px;}
+.bz .bzl .xf{line-height: 36px;margin-left: 10px;}
+.bz .bzl span{ width: 271px; line-height: 22px; cursor: pointer; color:#ccc;}
+.bz .l4{border:none;}
+/*集团*/
+.jt{ border-bottom: 1px solid #ccc; }
+.jt .a5{ margin-top:15px; color: #ccc;}
+.jt .a6{ margin-bottom:15px; }
+/*关于*/
+.gy .a1{margin:12px 0 14px 0;  color: #ccc; width: 1190px; }
+.gy .a2{margin-bottom: 15px; width: 1190px;}
+.gy .a3{margin-right: 15px;}
+</style>
+</head>
+<body>
+<!--head-->
+	<div class="tb">
+		<div class="tb1 clearfix w">
+			<a href="#"class="fl a1">亲，请登陆</a>
+			<a href="#"class="fl a2">免费注册</a>
+			<a href="#"class="fl a3">手机上淘宝</a>
+			<div class="fr wd">
+				<a href="#" class="fl wda1">我的淘宝</a>
+				<a href="#" class="fl wda2"><i></i>购物车</a>
+				<a href="#" class="fl wda3"><i></i>收藏夹</a>
+				<a href="#" class="fl wda4">商品分类</a>
+				<a href="#" class="fl wda5"><i></i>卖家中心</a>
+				<a href="#" class="fl wda6">联系客服</a>
+				<a href="#" class="fl wda7"><i></i>联系客服</a>
+			</div>
+		</div>
+	</div>	
+	<div class="tl"><div class="tp w"></div></div>
+<!--logo-->
+	<div class="logo w clearfix">
+		<h1 class="fl logo1"><a href="#" class="a1">淘宝网</a></h1>
+		<div class="fr clearfix dr">
+			<div class="fl ss clearfix">
+				<a href="#" class="bb fl b1">宝贝</a>
+				<a href="#" class="bb fl">宝贝</a>
+				<a href="#" class="bb fl">宝贝</a>
+				<input type="text" placeholder="休息一下，马上回来" class="fl xx">
+				<input type="button" value="搜 索" class="fl sr" />
+				<a href="#" class="gj fl">高级</a>
+				<a href="#" class="gj gj2 fl">搜索</a>
+				<div class="fl down">
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl xd3">雪地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地鞋地鞋</a>
+					<a href="#" class="xd fl">雪地鞋</a>
+					<a href="#" class="xd fl">雪地地鞋</a>
+					<a href="#" class="gd fl">更多</a>
+				</div>
+			</div>
+			<a href="#" class="fr m"><i></i></a>
+		</div>
+	</div>
+<!--菜单-->	
+	<dir class=" clearfix w fw">
+		<div class="cdl fl clearfix">
+			<h2 class="fl ts">淘宝特色服务</h2>
+			<div class="fl tsx">
+				<div class="zt fl clearfix">
+					<h2 class="fl">主题市场</h2>
+					<a href="#" class="fr">更多</a>
+				</div>
+				<ul class="fl ql clearfix">
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1 ql5 clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+				</ul>
+				<div class="zt fl clearfix">
+					<h2 class="fl">特色购物</h2>
+				</div>
+				<ul class="fl ql clearfix">
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1  clearfix ql3">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+						<i></i>
+					</li>
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1 ql5 clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+				</ul>
+				<div class="zt fl clearfix">
+					<h2 class="fl">特色购物</h2>
+				</div>
+				<ul class="fl ql clearfix">
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+				</ul>
+				<div class="zt fl clearfix">
+					<h2 class="fl">特色购物</h2>
+				</div>
+				<ul class="fl ql gj3 clearfix">
+					<li class="fl ql1  clearfix">
+						<a href="#" class="fl a1">淘宝女人</a>
+						<a href="#" class="fl a2">淘宝女</a>
+						<a href="#" class="fl">淘宝</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="fr clearfix fwr">
+			<div class="fl up clearfix">
+				<a href="#" class="fl tm">天狗</a>
+				<a href="#" class="fl tm1">天狗狗</a>
+				<a href="#" class="fl tm2">天狗</a>
+				<span class=" fl s1"></span>
+				<a href="#" class="fl tm3">阿里旅行</a>
+				<a href="#" class="fl tm3">司法拍卖</a>
+				<a href="#" class="fl tm3">一淘</a>
+				<a href="#" class="fl tm3">电器城</a>
+				<a href="#" class="fl tm3">美妆闪购</a>
+				<a href="#" class="fl tm3">云智能</a>
+				<a href="#" class="fl tm3 ts">特色中国</a>
+				<a href="#" class="fr xf">消费者保障</a>
+			</div>
+			<a href="#" class=" fl tp"><img src="img/15.png"></a>
+			<div class=" fl gz clearfix">
+				<div class="fl aq">
+					<a href="#" class="a1 fl">公告</a>
+					<a href="#" class="a2 fl">规则</a>
+					<a href="#" class="a3 fl">安全</a>
+					<a href="#" class="a4 fl">公告</a>
+					<a href="#" class="a5 fl">公告</a>
+					<ul class="fl my clearfix">
+						<li class="fl myl clearfix">
+							<a href="#" class="am fl" style="color:red;">马云引爆香港创业激情</a>
+							<a href="#" class=" fl">马云引爆香港创业激情</a>
+						</li>
+						<li class="fl myl clearfix">
+							<a href="#" class="am fl" >马云引爆香港创业激情</a>
+							<a href="#" class=" fl">马云引爆香港创业激情</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="fl hi clearfix">
+					<li class="fl hy clearfix">
+						<a href="#" class="fl tx"></a>
+						<div class="fl clearfix hyr">
+							<h2 class="fl">HI 你好</h2>
+							<a href="#" class="fl lq"><i></i>领取金金金钱</a>
+							<a href="#" class="fl lqr">领取金金钱</a>
+						</div>
+					</li>
+					<li class="fl  clearfix down">
+						<a href="#" class="fl dl"><i></i>登陆</a>
+						<a href="#" class="fl dl1">领取金金</a>
+						<a href="#" class="fl dl2">免费开店</a>
+					</li>
+				</ul>
+				<ul class="fl bm clearfix">
+					<li class="fl">
+						<h2>便民服务</h2>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+					<li class="fl dh">
+						<span class="s1"></span>
+						<p>话费</p>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<ul class="fl hf clearfix">
+			<li class="fl dq clearfix">
+				<div class="fl dql">
+					<h2 class="fl">当前</h2>
+					<h2 class="fl">热点</h2>
+				</div>
+				<div class="fl dqr ">
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a2">214不穿</a>
+					<i></i>
+				</div>
+				<div class="fl dqr dqrx">
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a2">214不穿</a>
+					<i></i>
+				</div>
+			</li>
+			<li class="fl dq dq1 clearfix">
+				<div class="fl dql">
+					<h2 class="fl">当前</h2>
+					<h2 class="fl">热点</h2>
+				</div>
+				<div class="fl dqr dqr1">
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a2">214不穿</a>
+				</div>
+				<div class="fl dqr dqr1 dqrx">
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a2">214不穿</a>
+				</div>
+			</li>
+			<li class="fl dq dq1 dq2 clearfix">
+				<div class="fl dql">
+					<h2 class="fl">当前</h2>
+					<h2 class="fl">热点</h2>
+				</div>
+				<div class="fl dqr dqr3 ">
+					<a href="#" class="fl a1">过年不穿</a>
+					<a href="#" class="fl a1 a2">艺术品</a>
+				</div>
+				<div class="fl dqr dqrx dqr3">
+					<a href="#" class="fl a1 ">过年不穿</a>
+					<a href="#" class="fl a1 a2">艺术品</a>
+				</div>
+			</li>
+			<li class="fl zz clearfix">
+				<a href="#" class="fl zl"></a>
+				<a href="#" class="fl zr">珠宝盛饭</a>
+				<span class="fr s1"></span>
+			</li>
+			<li class="fl mn">
+				<a href="#" class="fl ml"></a>
+				<div class="fl zm">
+					<h2>真毛领！</h2>
+					<p>中长长羽绒服</p>
+				</div>
+				<a href="#" class="dw"></a>
+			</li>
+		</ul>
+	</dir>
+<!--男装-->	
+	<div class="nz w clearfix">
+		<div class="nzl clearfix fl">
+			<div class="fl ns clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx clearfix">
+					<li class="fl clearfix sxl sl1">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+						<h2>型男好冬装</h2>
+						<p>又贵又丑你别买</p>
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx clearfix">
+					<li class="fl clearfix sxl sl1">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+						<h2>型男好冬装</h2>
+						<p>又贵又丑你别买</p>
+					</li>
+				</ul>
+			</div>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="fl xz"><img src="img/29.png"></a>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="fl xz xz1"><img src="img/30.png"></a>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd wz clearfix">
+					<li class="fl clearfix wzl ">
+						<a href="#" class="da">年夜饭不打折</a>
+					</li>
+					<li class="fl clearfix wzl wz2 ">
+						<a href="#" class="da">年夜饭不打折</a>
+					</li>
+					<li class="fl clearfix wzl wz2 ">
+						<a href="#" class="da">年夜饭不打折</a>
+					</li>
+					<li class="fl clearfix wzl wzl3 ">
+						<a href="#" class="da">年夜饭不打折</a>
+					</li>
+					<li class="fl clearfix xg ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果</a>
+						<a href="#" class="da da4 fl">水果</a>
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" >新鲜果</a>
+						<a href="#" class="da fl">新果</a>
+						<a href="#" class="da fl" style="color:red;">水果</a>
+					</li>
+					<li class="fl clearfix xg xg2 ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果</a>
+						<a href="#" class="da da4 fl">水果</a>
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" >新鲜果</a>
+						<a href="#" class="da fl">新果</a>
+						<a href="#" class="da fl" style="color:red;">水果</a>
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd wz clearfix">
+					<li class="fl clearfix lz lz1 ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fr t1"></li>
+					<li class="fl clearfix lz  ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fl clearfix lz  ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fl clearfix lz  ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fl clearfix lz  ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fl clearfix lz  ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fl clearfix lz  ">
+						<a href="#" class="da fl" style="font-weight:bold">新鲜水果</a>
+						<a href="#" class="da fl" style="color:red;">新鲜果</a>
+						<a href="#" class="da fl">新果果</a>
+						<a href="#" class="da da4 fl">水果</a>
+					</li>
+					<li class="fl down clearfix ">
+						<div class="fl dz clearfix">
+							<a href="#" class="fl a1"><img src="img/33.png"></a>
+							<div class="fl d1">
+								<h2 >收纳品特卖区</h2>
+								<p>9.9包邮</p>
+							</div>
+						</div>
+						<div class="fl dz clearfix">
+							<a href="#" class="fl a1 a2"><img src="img/33.png"></a>
+							<div class="fl d1">
+								<h2 >收纳品特卖区</h2>
+								<p>9.9包邮</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="fl xz xz1"><img src="img/34.png"></a>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fl ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<div class="fr ns ydd clearfix">
+				<div class="fl up">
+					<h2 class="fl">女装&bull;男装</h2>
+					<a href="#" class="fl a1"><i></i>女神约会必备！</a>
+					<a href="#" class="fr ar">百变毛妮</a>
+					<span class="fr s2"></span>
+					<a href="#" class="fr a2">百变毛二</a>
+				</div>
+				<ul class="fl sx yd clearfix">
+					<li class="fl clearfix sxl sl1 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold;color:red">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl">潮流</a>
+						<a href="#" class="fl cl" style="color:red">女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl sl4 ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="fl clearfix sxl ydl">
+						<a href="#" class="fl cl" style="font-weight:bold">潮流女装</a>
+						<a href="#" class="fl cl">潮流女</a>
+						<a href="#" class="fl cl" style="color:red">潮流</a>
+						<a href="#" class="fl cl" >女装</a>
+						<a href="#" class="fl cl">潮装</a>
+						<a href="#" class="fl cl">潮流装</a>
+					</li>
+					<li class="dw">
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="fl xz xz1"><img src="img/30.png"></a>
+		</div>
+		<div class="fr nzr clearfix">
+			<a href="#" class="a1 fl"></a>
+			<h2 class="fl fx">发现&bull;好货</h2>
+			<a href="#" class="a2 fr">定制我的偏好</a>
+			<ul class="fl nzu clearfix">
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl nzl">
+					<a href="#" class="la"><img src="img/36.png"></a>
+					<div class="fr dr">
+						<h3>太空包邮的裙子</h3>
+						<p>近七年没卖出一件</p>
+						<p class="p1">一件也没有卖出去</p>
+					</div>
+				</li>
+				<li class="fl l9"><img src="img/37.png"></li>
+				<li class="fl ss">
+					<a href="#" class="as fl"><img src="img/38.png"/>换一批试试</a>
+				</li>
+			</ul>
+			<a href="#" class="a1 a8 fl"></a>
+			<h2 class="fl fx fx2">发现&bull;好店</h2>
+			<ul class="xyy fl clearfix">
+				<li class="fl xyl">
+					<a href="#" class="ll fl"><img src="img/39.png" /></a>
+					<div class="fl d2">
+						<h3 class="xp">喜洋洋 喜糖 糖 糖果 喜糖</h3>
+						<p>主营：食品/保健</p>
+					</div>
+				</li>
+				<li class="fl sh">售后不错 | 快递不好 | 甜蜜</li>
+				<li class="fl yt clearfix">
+					<a href="#" class="tk fl tk1"><img src="img/40.png" /></a>
+					<a href="#" class="tk fl tk2"><img src="img/40.png" /></a>
+					<a href="#" class="tk fl"><img src="img/40.png" /></a>
+				</li>
+				<li class="fl xyl">
+					<a href="#" class="ll fl"><img src="img/39.png" /></a>
+					<div class="fl d2">
+						<h3 class="xp">喜洋洋 喜糖 糖 糖果 喜糖</h3>
+						<p>主营：食品/保健</p>
+					</div>
+				</li>
+				<li class="fl sh">售后不错 | 快递不好 | 甜蜜</li>
+				<li class="fl yt clearfix">
+					<a href="#" class="tk fl tk1"><img src="img/40.png" /></a>
+					<a href="#" class="tk fl tk2"><img src="img/40.png" /></a>
+					<a href="#" class="tk fl"><img src="img/40.png" /></a>
+				</li>
+				<li class="fl xyl">
+					<a href="#" class="ll fl"><img src="img/39.png" /></a>
+					<div class="fl d2">
+						<h3 class="xp">喜洋洋 喜糖 糖 糖果 喜糖</h3>
+						<p>主营：食品/保健</p>
+					</div>
+				</li>
+				<li class="fl sh sh1">售后不错 | 快递不好 | 甜蜜</li>
+				<li class="fl xyl">
+					<a href="#" class="ll fl"><img src="img/39.png" /></a>
+					<div class="fl d2">
+						<h3 class="xp">喜洋洋 喜糖 糖 糖果 喜糖</h3>
+						<p>主营：食品/保健</p>
+					</div>
+				</li>
+				<li class="fl sh">售后不错 | 快递不好 | 甜蜜</li>
+			</ul>
+			<a href="#" class="fl hyp"><i></i>换一批试试</a>
+		</div>
+		<a href="#" class="fr px"><img src="img/41.png"></a>
+	</div>
+<!--星店-->	
+	<ul class="xd1 w clearfix">
+		<li class="xdl fl ">
+			<h2 class="fl hh">星店</h2>
+			<a href="#" class="fr mx">明星开店在这里</a>
+			<a href="#" class=" wy fl">
+				<div class=" dw">
+					<h3>众男神呵呵呵呵</h3>
+					<p>周星驰 星爷 星仔 星星</p>
+				</div>
+			</a>
+			<div class="fl clearfix fd">
+				<div class="fl d1 d2"><img src="img/42.png">情人节推倒</div>
+				<div class="fr d1"><img src="img/42.png">情人节推倒</div>
+			</div>
+			<a href="#" class="fl hf">星护肤 | 明星年货 | 星同款</a>
+			<a href="#" class="fl hs">[<span style="color:red">0元星福利</span>] 气人黑店</a>
+		</li>
+		<li class="xdl fl ">
+			<h2 class="fl hh">星店</h2>
+			<a href="#" class="fr mx">明星开店在这里</a>
+			<a href="#" class=" wy fl">
+				<div class=" dw">
+					<h3>众男神呵呵呵呵</h3>
+					<p>周星驰 星爷 星仔 星星</p>
+				</div>
+			</a>
+			<div class="fl clearfix fd">
+				<div class="fl d1 d2"><img src="img/42.png">情人节推倒</div>
+				<div class="fr d1"><img src="img/42.png">情人节推倒</div>
+			</div>
+			<a href="#" class="fl hf">星护肤 | 明星年货 | 星同款</a>
+			<a href="#" class="fl hs">[<span style="color:red">0元星福利</span>] 气人黑店</a>
+		</li>
+		<li class="xdl fl ">
+			<h2 class="fl hh">星店</h2>
+			<a href="#" class="fr mx">明星开店在这里</a>
+			<a href="#" class=" wy fl">
+				<div class=" dw">
+					<h3>众男神呵呵呵呵</h3>
+					<p>周星驰 星爷 星仔 星星</p>
+				</div>
+			</a>
+			<div class="fl clearfix fd">
+				<div class="fl d1 d2"><img src="img/42.png">情人节推倒</div>
+				<div class="fr d1"><img src="img/42.png">情人节推倒</div>
+			</div>
+			<a href="#" class="fl hf">星护肤 | 明星年货 | 星同款</a>
+			<a href="#" class="fl hs">[<span style="color:red">0元星福利</span>] 气人黑店</a>
+		</li>
+		<li class="xdl fl ">
+			<h2 class="fl hh">星店</h2>
+			<a href="#" class="fr mx">明星开店在这里</a>
+			<a href="#" class=" wy fl">
+				<div class=" dw">
+					<h3>众男神呵呵呵呵</h3>
+					<p>周星驰 星爷 星仔 星星</p>
+				</div>
+			</a>
+			<div class="fl clearfix fd">
+				<div class="fl d1 d2"><img src="img/42.png">情人节推倒</div>
+				<div class="fr d1"><img src="img/42.png">情人节推倒</div>
+			</div>
+			<a href="#" class="fl hf">星护肤 | 明星年货 | 星同款</a>
+			<a href="#" class="fl hs">[<span style="color:red">0元星福利</span>] 气人黑店</a>
+		</li>
+		<li class="xdl fl ">
+			<h2 class="fl hh">星店</h2>
+			<a href="#" class="fr mx">明星开店在这里</a>
+			<a href="#" class=" wy fl">
+				<div class=" dw">
+					<h3>众男神呵呵呵呵</h3>
+					<p>周星驰 星爷 星仔 星星</p>
+				</div>
+			</a>
+			<div class="fl clearfix fd">
+				<div class="fl d1 d2"><img src="img/42.png">情人节推倒</div>
+				<div class="fr d1"><img src="img/42.png">情人节推倒</div>
+			</div>
+			<a href="#" class="fl hf">星护肤 | 明星年货 | 星同款</a>
+			<a href="#" class="fl hs">[<span style="color:red">0元星福利</span>] 气人黑店</a>
+		</li>
+		<li class="xdl fl ">
+			<h2 class="fl hh">星店</h2>
+			<a href="#" class="fr mx">明星开店在这里</a>
+			<a href="#" class=" wy fl">
+				<div class=" dw">
+					<h3>众男神呵呵呵呵</h3>
+					<p>周星驰 星爷 星仔 星星</p>
+				</div>
+			</a>
+			<div class="fl clearfix fd">
+				<div class="fl d1 d2"><img src="img/42.png">情人节推倒</div>
+				<div class="fr d1"><img src="img/42.png">情人节推倒</div>
+			</div>
+			<a href="#" class="fl hf">星护肤 | 明星年货 | 星同款</a>
+			<a href="#" class="fl hs">[<span style="color:red">0元星福利</span>] 气人黑店</a>
+		</li>
+	</ul>
+<!--爱花钱-->
+	<div class=" w hq clearfix">
+		<h2 class="fl hqh">爱花钱</h2>
+		<ul class="fl hy  clearfix ">
+			<li class="fl hyl">
+				<a href="#" class="dw">新年新气象</a>
+			</li>
+			<li class="fl hyl">
+				<a href="#" class="dw">新年新气象</a>
+			</li>
+			<li class="fl hyl">
+				<a href="#" class="dw">新年新气象</a>
+			</li>
+			<li class="fl hyl">
+				<a href="#" class="dw">新年新气象</a>
+			</li>
+			<li class="fl hyl">
+				<a href="#" class="dw">新年新气象</a>
+			</li>
+			<li class="fl hyl">
+				<a href="#" class="dw">新年新气象</a>
+			</li>
+		</ul>
+		<div class="fl hqr">
+			<h2 class="fl">女子吃宵夜后失联</h2>
+			<a href="#" class="fr gd">更多</a>
+			<ul class="fl clearfix qz">
+				<li class=" fl xf clearfix">
+					<div class="fl aj">
+						<img src="img/44.png">
+						<h3>权志龙抓海被批</h3>
+						<span class="s1"></span>
+						<span class="s2"></span>
+					</div>
+					<div class=" clearfix fl zs">
+						<p href="# fl zj">最帅猛男是女儿身</p>
+						<p href="# fl zj">最帅猛男是女儿身</p>
+						<p href="# fl zj">最帅猛男是女儿身</p>
+						<p href="# fl zj">最帅猛男是女儿身</p>
+						<p href="# fl zj">最帅猛男是女儿身</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<ul class="clearfix bg fl">
+			<li class="fl clearfix bgl">
+				<a href="#" class="hc fl"><img src="img/47.png"></a>
+				<a href="#" class="fr tx">吃遍天下美食</a>
+				<a href="#" class="fl nr">
+					<span href="#" class="xl">限量</span>
+					<p class="p1">正宗正常正常</p>
+					<p class="p2">￥1000元/100g</p>
+				</a>
+				<a href="#" class="fl nr">
+					<span href="#" class="xl">限量</span>
+					<p class="p1">正宗正常正常</p>
+					<p class="p2">￥1000元/100g</p>
+				</a>
+			</li>
+			<li class="fl clearfix bgl">
+				<a href="#" class="hc fl"><img src="img/47.png"></a>
+				<a href="#" class="fr tx">吃遍天下美食</a>
+				<a href="#" class="fl yq">
+					<span class="s4 fl"></span>
+					<span class="s5 fr"></span>
+					<span class="s6 "></span>
+					<span class="s7 "></span>
+					<span class="s8 "></span>
+					<span class="s9 ">一起走过的</span>
+					<span class="s3 "></span>
+				</a>
+				<div class="fl wj">
+					<p>我家的烧烤摊</p>
+					<p>我家的烧烤</p>
+					<p>我家的烧</p>
+					<p>我家的</p>
+					<p>我家</p>
+					<a href="#" class="dz">执子之手把你带走</a>
+				</div>
+			</li>
+			<li class="fl clearfix bgl bgl3">
+				<a href="#" class="hc fl"><img src="img/47.png"></a>
+				<a href="#" class="fr tx">吃遍天下美食</a>
+				<a href="#" class="fl tp"><img src="img/51.png"></a>
+				<a href="#" class="fl sb"><img src="img/52.png"></a>
+				<div class="fl sbd">
+					<p>手表不好</p>
+					<p>手表不好</p>
+					<p>￥<span style="color:red">35</span></p>
+				</div>
+			</li>
+			<li class="fl clearfix bgl bgl3">
+				<a href="#" class="hc fl"><img src="img/47.png"></a>
+				<a href="#" class="fr tx">吃遍天下美食</a>
+				<a href="#" class="a6 fl"><img src="img/53.png">
+					<p>洗衣机洗衣机洗衣机</p>
+				</a>
+				<a href="#" class="a7 fl"><img src="img/54.png">
+					<p>洗衣机衣机</p>
+				</a>
+				<a href="#" class="a7 fl"><img src="img/54.png">
+					<p>洗衣机衣机</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+<!--热卖-->
+	<div class="clearfix w rm">
+		<div class=" fl w">
+			<h2 class="rmh fl">热卖单品</h2>
+			<div class="fr rmr clearfix">
+				<a href="#" class="fl a1">男鞋</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2 a1">男鞋</a>
+				<a href="#" class="fl a2 a8">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2 a11">男鞋子</a>
+				<a href="#" class="fl a2">男鞋子</a>
+				<a href="#" class="fl a2 a13">更多</a>
+			</div>
+		</div>
+		<ul class="fl clearfix kz">
+			<li class="fl nzk">
+				<a href="#" class="a1 fl"><img src="img/55.png"/>
+					<h3>￥179.00</h3>
+					<p>一件也没卖出去</p>
+				</a>
+				<p class="fl p3">事件发生后，微博人士正为宝亿嵘影业CEO的任晓妍转发了王宝强的微博，并称：“哥，挺住！为了父母，为了孩子，坚强！”</p>
+				<span class="fl">评价15</span>
+				<span class="fr s2">收藏15</span>
+			</li>
+			<li class="fl px">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+			<li class="fl px px2">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<span class="fr by">包邮</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+			<li class="fl px wb">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+			<li class="fl px px2 wb">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<span class="fr by">包邮</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+		</ul>
+		<ul class="fl clearfix kz">
+			<li class="fl nzk">
+				<a href="#" class="a1 fl"><img src="img/55.png"/>
+					<h3>￥179.00</h3>
+					<p>一件也没卖出去</p>
+				</a>
+				<p class="fl p3">事件发生后，微博人士正为宝亿嵘影业CEO的任晓妍转发了王宝强的微博，并称：“哥，挺住！为了父母，为了孩子，坚强！”</p>
+				<span class="fl">评价15</span>
+				<span class="fr s2">收藏15</span>
+			</li>
+			<li class="fl px">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+			<li class="fl px px2 wr">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<span class="fr by">包邮</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+			<li class="fl px wb">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+			<li class="fl px px2 wb wr">
+				<a href="#" class="fl a2"><img src="img/56.png"/></a>
+				<span class="fl s1">￥118.00</span>
+				<span class="fr by">包邮</span>
+				<p class="fl s2">月销1000件</p>
+			</li>
+		</ul>
+		<a class="fl a57"><img src="img/57.png"/></a>
+	</div>
+<!--售后-->
+	<ul class="w bz clearfix">
+		<li class="bzl fl clearfix">
+			<div class=" fl clearfix d1">
+				<a href="#" class="fl a1"><img src="img/58.png" /></a>
+				<h2 class="fl xf">消费者保障</h2>
+			</div>
+			<span class="fl s1">保障范围 退货退款流程 服务中心</span>
+			<span class="fl s2">更多特色服务</span>
+		</li>
+		<li class="bzl fl clearfix">
+			<div class=" fl clearfix d1">
+				<a href="#" class="fl a1"><img src="img/58.png" /></a>
+				<h2 class="fl xf">消费者保障</h2>
+			</div>
+			<span class="fl s1">保障范围 退货退款流程 服务中心</span>
+			<span class="fl s2">更多特色服务</span>
+		</li>
+		<li class="bzl fl clearfix">
+			<div class=" fl clearfix d1">
+				<a href="#" class="fl a1"><img src="img/58.png" /></a>
+				<h2 class="fl xf">消费者保障</h2>
+			</div>
+			<span class="fl s1">保障范围 退货退款流程 服务中心</span>
+			<span class="fl s2">更多特色服务</span>
+		</li>
+		<li class="bzl fl clearfix l4">
+			<div class=" fl clearfix d1">
+				<a href="#" class="fl a1"><img src="img/58.png" /></a>
+				<h2 class="fl xf">消费者保障</h2>
+			</div>
+			<span class="fl s1">保障范围 退货退款流程 服务中心</span>
+			<span class="fl s2">更多特色服务</span>
+		</li>
+	</ul>
+<!--集团-->
+	<div class="w  clearfix jt">
+		<a href="#" class="fl a5">阿里巴巴集团|淘宝网|天猫|聚划算|全球速卖通|阿里巴巴国际交易市场|1688|阿里妈妈|阿里旅行 · 去啊|阿里云计算|YunOS|阿里通信|一淘|万网|高德|UC|友盟</a>
+		<a href="#" class="fl a5 a6">虾米|阿里星球|来往|钉钉|支付宝|优酷|土豆|阿里健康|阿里影业|阿里体育|网商银行</a>
+	</div>
+<!--关于-->
+	<div class=" clearfix w gy">
+		<a href="#" class="fl a1">关于淘宝合作伙伴营销中心廉正举报联系客服开放平台诚征英才联系我们网站地图法律声明知识产权| © 2003-2016 Taobao.com 版权所有</a>
+		<a href="#" class="fl a2">网络文化经营许可证：浙网文[2013]0268-027号|增值电信业务经营许可证：浙B2-20080224|信息网络传播视听节目许可证：1109364号|互联网违法和不良信息举报电话:0571-81683755 blxx@list.alibaba-inc.com</a>
+		<a href="#" class="a3 fl"><img src="img/59.png"></a>
+		<a href="#" class="a3 fl"><img src="img/59.png"></a>
+		<a href="#" class="a3 fl"><img src="img/59.png"></a>
+		<a href="#" class="a3 fl"><img src="img/59.png"></a>
+		<a href="#" class="a3 fl"><img src="img/60.png"></a>
+		<a href="#" class="a3 fl"><img src="img/60.png"></a>
+		<a href="#" class="a3 fl"><img src="img/60.png"></a>
+	</div>
+</body>
+</html>
