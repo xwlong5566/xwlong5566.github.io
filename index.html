@@ -379,7 +379,45 @@
 		.project1 .l2{
 			margin-top:30px;
 		}
+
 	</style>
+	<script>
+		window.onload=function(){
+			var oPs=document.getElementById('ps');
+			var oPsn=document.getElementById('psn');
+			var oHtml=document.getElementById('html');
+			var oHtmln=document.getElementById('htmln');
+			var oCss=document.getElementById('css');
+			var oCssn=document.getElementById('cssn');
+			var oJs=document.getElementById('js');
+			var oJsn=document.getElementById('jsn');
+			oPs.onmouseover=function(){
+				oPsn.style.display='block';
+			};
+			oPs.onmouseout=function(){
+				oPsn.style.display='none';
+			};
+			window.
+			oHtml.onmouseover=function(){
+				oHtmln.style.display='block';
+			};
+			oHtml.onmouseout=function(){
+				oHtmln.style.display='none';
+			};
+			oCss.onmouseover=function(){
+				oCssn.style.display='block';
+			};
+			oCss.onmouseout=function(){
+				oCssn.style.display='none';
+			};
+			oJs.onmouseover=function(){
+				oJsn.style.display='block';
+			};
+			oJs.onmouseout=function(){
+				oJsn.style.display='none';
+			};
+		};
+	</script>
 </head>
 <body>
 	<div id="div1">
@@ -397,31 +435,31 @@
 	<h1 class="floor1">编写艺术般的代码</h1>
 	<div class="w">
 		<ul class="jn">
-			<li class="ps"><h4>Photoshop</h4>
-				<div class="psn">
+			<li class="ps" id="ps"><h4>Photoshop</h4>
+				<div class="psn" id="psn">
 					<p class="p1">能进行图片处理和平面设计；</p>
 					<p>能独立切图；</p>
 					<p>能根据图片特征存成最优的格式。</p>
 				</div>
 			</li>
-			<li class="html ps">
+			<li class="html ps" id="html">
 				<h4>HTML</h4>
-				<div class="htmln">
+				<div class="htmln" id="htmln">
 					<p class="p1">能使用合适的结构编写兼容主流浏览器的页面布局；</p>
 					<p>了解HTML标签的语义；</p>
 				</div>
 			</li>
-			<li class="html ps css">
+			<li class="html ps css" id="css">
 				<h4>CSS</h4>
-				<div class="cssn">
+				<div class="cssn" id="cssn">
 					<p class="p1">能使用合适的结构编写兼容主流浏览器的页面布局；</p>
 					<p>能适当运用CSS 3使页面在现代浏览器上效果更佳；</p>			
 					<p>能熟练使用Chrome开发者工具辅助开发；</p>
 				</div>
 			</li>
-			<li class="html ps js">
+			<li class="html ps js" id="js">
 				<h4>JavaScript</h4>
-				<div class="jsn">
+				<div class="jsn" id="jsn">
 					<p class="p1">熟悉原生Javascript，能脱离jQuery等类库编码；</p>
 					<p>能运用模块化、面向对象的方式编程；</p>
 					<p>熟悉正则表达式的使用；</p>
@@ -506,6 +544,19 @@
 					<a href="taobao/index.html" target="_blank" class="pr">
 						<img src="img/taobao.png" alt="">
 					</a>
+				</li>
+				<li class="l2">
+					<div class="pl jsx">
+						<h2><a href="#" target="_blank">JavaScript小作品</a></h2>
+						<div>
+							<span class="css">CSS</span>
+							<span class="css3">CSS3</span>
+							<span class="html">HTML</span>
+							<span class="js">JavaScript</span>
+						</div>
+						<a href="by/bydr.html" target="_blank" class="address">捕鱼达人</a>
+						
+					</div>
 				</li>
 			</ul>
 		</div>
