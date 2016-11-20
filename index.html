@@ -73,6 +73,10 @@
 			width: 20px;
 			height: 20px;
 			background:url('img/1.png') no-repeat;
+			transition:.4s all ease;
+		}
+		#div1 ul .tel a span:hover{
+			transform:rotate(360deg);
 		}
 		#div1 ul .tel a .qq{
 			width: 18px;
@@ -411,7 +415,6 @@
 			var oJsn=document.getElementById('jsn');
 			var oProject=document.getElementById('project');
 			var aSpan=oProject.getElementsByTagName('span');
-			alert('欢迎光临 ^_^');
 			oPs.onmouseover=function(){
 				oPsn.style.display='block';
 				oPs.style.width='980px';
