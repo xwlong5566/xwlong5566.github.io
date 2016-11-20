@@ -343,6 +343,7 @@
 			height: 25px;
 			border-radius: 4px;
 			margin-right:5px;
+			cursor:pointer;
 		}
 		.project1 .pl .css{
 			width: 35px;
@@ -359,7 +360,7 @@
 		}
 		.project1 .pl .js{
 			width: 75px;
-			background: #f0db4f;
+			background: #FF34B3	;
 		}
 		.project1 .pl div{
 			width: 590px;
@@ -392,10 +393,13 @@
 
 		}
 		.project1 .l2 .jsx .h5{
-			background:blue;
+			background:#00EE76	;
 		}
 	</style>
 	<script>
+		function random(m,n){
+			return parseInt(m+Math.random()*(n-m));
+		}
 		window.onload=function(){
 			var oPs=document.getElementById('ps');
 			var oPsn=document.getElementById('psn');
@@ -405,34 +409,57 @@
 			var oCssn=document.getElementById('cssn');
 			var oJs=document.getElementById('js');
 			var oJsn=document.getElementById('jsn');
+			var oProject=document.getElementById('project');
+			var aSpan=oProject.getElementsByTagName('span');
+			console.log(aSpan.length);
 			oPs.onmouseover=function(){
 				oPsn.style.display='block';
 				oPs.style.width='980px';
+				oPs.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
 			};
 			oPs.onmouseout=function(){
 				oPsn.style.display='none';
+				oPs.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
 			oHtml.onmouseover=function(){
 				oHtmln.style.display='block';
 				oHtml.style.width='930px';
+				oHtml.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
 			oHtml.onmouseout=function(){
 				oHtmln.style.display='none';
+				oHtml.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
 			oCss.onmouseover=function(){
 				oCssn.style.display='block';
 				oCss.style.width='882px';
+				oCss.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
 			oCss.onmouseout=function(){
 				oCssn.style.display='none';
+				oCss.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
 			oJs.onmouseover=function(){
 				oJsn.style.display='block';
 				oJs.style.width='784px';
+				oJs.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
 			oJs.onmouseout=function(){
 				oJsn.style.display='none';
+				oJs.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+
 			};
+			for(var i=0;i<aSpan.length;i++){
+				aSpan[i].onmouseover=function(){
+					this.style.background='rgb('+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+				};
+			}
 		};
 	</script>
 </head>
@@ -525,7 +552,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="project">
+	<div class="project" id="project">
 		<div class="w">
 			<h1 class="t1 ">项目经验</h1>
 			<h1 class="t2">热衷于原生JavaScript,H5,Css3的学习</h1>
