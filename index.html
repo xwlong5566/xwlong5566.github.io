@@ -102,7 +102,7 @@
 
 		}
 		.jn .ps{
-			width: 980px;
+			width: 700px;
 			height: 40px;
 			border-left:3px solid #fdbc40;
 			background:#fff6dd;
@@ -110,6 +110,7 @@
 			color:#ff742a;
 			margin-bottom:20px;
 			position:relative;
+			transition:.4s all ease;
 		}
 		.jn .ps h4{
 			float:left;
@@ -118,15 +119,21 @@
 		.jn .html{
 			position:relative;
 			color:#467da9;
-			width: 931px;
+			width: 600px;
 			background:#d6efff;
 			border-left:3px solid #3498db;
+			transition:.4s all ease;
+
 		}
 		.jn .css{
-			width: 882px;
+			width: 500px;
+			transition:.4s all ease;
+
 		}
 		.jn .js{
-			width: 784px;
+			width: 400px;
+			transition:.4s all ease;
+
 		}
 		/*js 隐藏部分*/
 		.psn{
@@ -384,6 +391,9 @@
 			float:left;
 
 		}
+		.project1 .l2 .jsx .h5{
+			background:blue;
+		}
 	</style>
 	<script>
 		window.onload=function(){
@@ -397,24 +407,28 @@
 			var oJsn=document.getElementById('jsn');
 			oPs.onmouseover=function(){
 				oPsn.style.display='block';
+				oPs.style.width='980px';
 			};
 			oPs.onmouseout=function(){
 				oPsn.style.display='none';
 			};
 			oHtml.onmouseover=function(){
 				oHtmln.style.display='block';
+				oHtml.style.width='930px';
 			};
 			oHtml.onmouseout=function(){
 				oHtmln.style.display='none';
 			};
 			oCss.onmouseover=function(){
 				oCssn.style.display='block';
+				oCss.style.width='882px';
 			};
 			oCss.onmouseout=function(){
 				oCssn.style.display='none';
 			};
 			oJs.onmouseover=function(){
 				oJsn.style.display='block';
+				oJs.style.width='784px';
 			};
 			oJs.onmouseout=function(){
 				oJsn.style.display='none';
@@ -556,14 +570,18 @@
 							<span class="css3">CSS3</span>
 							<span class="html">HTML</span>
 							<span class="js">JavaScript</span>
+							<span class="js h5">html5</span>
 						</div>
 						<a href="by/bydr.html" target="_blank" class="address">捕鱼达人</a>
 						<a href="hbsz/hbsz.html" target="_blank" class="address">弧版时钟</a>
+						<a href="tph/tph.html" target="_blank" class="address">3D图片环</a>
+						<a href="player/player.html" target="_blank" class="address">简易音乐播放器</a>
 					</div>
 					<a href="by/bydr.html" target="_blank" class="pr">
 						<img src="img/by.png" alt="">
 					</a>
 				</li>
+
 			</ul>
 		</div>
 	</div>
