@@ -323,7 +323,7 @@
 		}
 		.project{
 			background: #fafafa;
-			height: 827px;
+			height: 850px;
 			padding-top:37px;
 		}
 		
@@ -376,6 +376,14 @@
 		}
 		.project1 .pl .address{
 			float:right;
+			width: 100px;
+			height:48px;
+			background: #638ce0;
+			text-align:center;
+			line-height: 48px;
+			color:#fff;
+			border-radius:5px;
+			font-size:16px;
 		}
 		.project1 .pr{
 			float:right;
@@ -388,7 +396,7 @@
 			margin-top:30px;
 		}
 		.project1 .l2 .pr2{
-			margin-top:10px;
+			margin-top:40px;
 		}
 		.project1 .l2 .jsx .address{
 			margin:50px 50px 0 0;
@@ -401,8 +409,35 @@
 			color:#fff;
 			border-radius:5px;
 			font-size:16px;
+			position:relative;
 		}
-		.project1 .l2 .jsx .address:hover{
+		.project1 .l2 .jsx .address div{
+			position:absolute;
+			width: 100px;
+			height: 100px;
+			background: #fffdf8;
+    		border-radius: 5px;
+   			border: 1px solid #ededed;
+			bottom:-90px;
+			right:-90px;
+			z-index:2;
+			opacity: .8;
+    		color: #000;
+    		line-height: 26px;
+    		display: none;
+		}
+		.project1 .l2 .jsx .meizi div,.project1 .l2 .jsx .clock div{
+			height: 110px;
+			width: 110px;
+			bottom:-100px;
+			right:-100px;
+		}
+		.project1 .l2 .jsx .audio:hover #audio,.project1 .l2 .jsx .fish:hover #fish,.project1 .l2 .jsx .meizi:hover #meizi,.project1 .l2 .jsx .clock:hover #clock,.project1 .l2 .jsx .slider:hover #slider,.project1 .l2 .jsx .photo:hover #photo{
+			display: block;
+			-webkit-box-shadow:1px 1px 10px #000;
+		}
+		
+		.project1 .l2 .jsx .address:hover,.project1 .pl .address:hover{
 			-webkit-box-shadow:0px 0px 10px #000;
 		}
 		.project1 .l2 .jsx .h5{
@@ -611,12 +646,24 @@
 							<span class="js">JavaScript</span>
 							<span class="js h5">html5</span>
 						</div>
-						<a href="player/player.html" target="_blank" class="address">音乐播放器</a>
-						<a href="tph/tph.html" target="_blank" class="address">3D图片环</a>
-						<a href="by/bydr.html" target="_blank" class="address">捕鱼达人</a>
-						<a href="meizi/美女查看器.html" target="_blank" class="address">美女查看器</a>
-						<a href="hbsz/hbsz.html" target="_blank" class="address">弧版时钟</a>
-						<a href="3D/3d轮播图.html" target="_blank" class="address">3D轮播图</a>
+						<a href="player/player.html" target="_blank" class="address audio" >音乐播放器
+							<div id="audio">运用html5中audio标签编写的音乐盒</div>
+						</a>
+						<a href="tph/tph.html" target="_blank" class="address photo">3D图片环
+							<div id="photo">运用CSS3结合JS、HTML制作的一个图片环</div>
+						</a>
+						<a href="by/bydr.html" target="_blank" class="address fish">捕鱼达人
+							<div id="fish">运用面向对象的思想和canvas标签模拟的一款小游戏</div>
+						</a>
+						<a href="meizi/美女查看器.html" target="_blank" class="address meizi">美女查看器
+							<div id="meizi">利用CSS3的mask新样式，加上鼠标移动时时坐标实现查看</div>
+						</a>
+						<a href="hbsz/hbsz.html" target="_blank" class="address clock">弧版时钟
+							<div id="clock">利用canvas的绘图功能和定时器再结合JS制作出的一个简易时钟</div>
+						</a>
+						<a href="3D/3d轮播图.html" target="_blank" class="address slider">3D轮播图
+							<div id="slider">运用CSS3结合JS原生写出的一个3D轮播图</div>
+						</a>
 						
 					</div>
 					<a href="by/bydr.html" target="_blank" class="pr2 pr">

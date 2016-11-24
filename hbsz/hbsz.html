@@ -20,8 +20,34 @@
             color: #fff;
             font-size: 50px;
         }
+        a{
+        position:absolute;
+        top:40px;
+        right:40px;
+        height: 48px;
+        width: 80px;
+        background: #648ee1;
+        color: #fff;
+        border-radius:5px;
+        text-decoration: none;
+        text-align:center;
+        line-height: 48px;
+
+        }
+        h1{
+            margin:50px auto;
+            color:#fff;
+            font-family: '微软雅黑';
+            font-weight:normal;
+        }
+        a:hover{
+            -webkit-box-shadow:0px 0px 10px #fff;
+        }
     </style>
     <script>
+        function toDou(n){
+            return n<10?'0'+n:''+n;
+        }
         function d2a(n){
             return n*Math.PI/180;
         }
@@ -65,15 +91,17 @@
                 //文字时钟
                 gd.beginPath();
                 gd.font='14px 宋体';
-                gd.fillText(h+':'+m+':'+s,cx,cy);
+                gd.fillText(toDou(h)+':'+toDou(m)+':'+toDou(s),cx,cy);
             },16);
         };
     </script>
 </head>
 <body>
-<canvas id="c1" width="800" height="600">
-    <span>您的浏览器版本过低了，不支持canvas</span>
-</canvas>
+    <h1>弧版时钟</h1>
+    <a href="https://xwlong5566.github.io">返回首页</a>
+    <canvas id="c1" width="800" height="600">
+        <span>您的浏览器版本过低了，不支持canvas</span>
+    </canvas>
 </body>
 </html>
 
