@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/2.
- */
+
 function Coin(type){
     this.type = type;
     this.x = 0;

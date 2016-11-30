@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/2.
- */
+
 document.addEventListener('DOMContentLoaded',function(){
     var oC = document.getElementById('c1');
     var gd = oC.getContext('2d');

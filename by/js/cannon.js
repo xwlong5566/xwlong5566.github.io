@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/2.
- */
+
 //炮的尺寸
 var CANNON_SIZE=[
         null,

@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/1.
- */
+
 var FISH_SIZE=[
     null,
     {w: 55, h: 37, collR: 17},

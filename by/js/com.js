@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/1.
- */
+
 function rnd(m,n){
     return Math.floor(m+Math.random()*(n-m));
 }

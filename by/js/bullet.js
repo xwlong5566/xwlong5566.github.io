@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/2.
- */
+
     //炮弹具体尺寸
 var BULLET_SIZE=[
         null,

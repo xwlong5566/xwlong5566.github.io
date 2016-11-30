@@ -1,6 +1,4 @@
-/**
- * Created by leolau on 2016/11/2.
- */
+
 function Web(){
     this.x = 0;
     this.y = 0;
