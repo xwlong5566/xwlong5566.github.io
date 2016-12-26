@@ -1,0 +1,457 @@
+*{
+			margin:0;
+			padding:0;
+			font-family:'微软雅黑';
+			font-size:14px;
+		}
+		body{
+			text-align:center;
+		}
+		h1,h2,h3,h4,h5,h6{
+			font-weight:normal;
+		}
+		li{
+			list-style:none;
+		}
+		a{
+			text-decoration:none;
+			color:#000;
+		}
+		#div1{
+			min-width: 1583px;
+			height: 70px;
+			border-bottom:1px solid #d6d6d6;
+		}
+		.w{
+			width: 981px;
+			margin:0 auto;
+		}
+		#div1 h1{
+			float:left;
+			font-size:36px;
+			margin:0 10px 0 0;
+			line-height: 70px;
+		}
+		#div1 p{
+			line-height: 50px;
+			
+			color:#888;
+			float:left;
+			margin:20px 0px 0 0;
+		}
+		#div1 ul{
+			margin-top:20px;
+			float:right;
+			line-height: 50px;
+			
+		}
+		#div1 ul li{
+			
+			float:left;
+			line-height: 50px;
+			
+		}
+		#div1 ul .tel{
+			width: 141px;
+		}
+		#div1 ul .tel2{
+			width: 123px;
+		}
+		#div1 ul .tel a{
+			float:left;
+		}
+		#div1 ul .tel a span{
+			display:block;
+			margin:15px 5px 0 0;
+			float:left;
+			width: 20px;
+			height: 20px;
+			background:url('../img/1.png') no-repeat;
+			transition:.4s all ease;
+		}
+		#div1 ul .tel a span:hover{
+			transform:rotate(360deg);
+		}
+		#div1 ul .tel a .qq{
+			width: 18px;
+			height: 19px;
+			background:url('../img/qq.png') no-repeat;
+		}
+		#div1 ul .tel a .mail{
+			width: 20px;
+			height: 20px;
+			background:url('../img/mail.png') no-repeat;
+		}
+		#div1 ul .tel3{
+			width: 220px;
+		}
+		.floor{
+			line-height: 56px;
+			margin:37px 0 0 0;
+			font-size:36px;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+		}
+		.floor1{
+			font-size:30px;
+			color:#999;
+			line-height:48px;
+			margin-bottom:30px;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+
+		}
+		.jn .ps{
+			width: 700px;
+			height: 40px;
+			border-left:3px solid #fdbc40;
+			background:#fff6dd;
+			line-height: 40px;
+			color:#ff742a;
+			margin-bottom:20px;
+			position:relative;
+			transition:.4s all ease;
+		}
+		.jn .ps h4{
+			float:left;
+			margin-left:10px;
+		}
+		.jn .html{
+			position:relative;
+			color:#467da9;
+			width: 600px;
+			background:#d6efff;
+			border-left:3px solid #3498db;
+			transition:.4s all ease;
+
+		}
+		.jn .css{
+			width: 500px;
+			transition:.4s all ease;
+
+		}
+		.jn .js{
+			width: 400px;
+			transition:.4s all ease;
+
+		}
+		/*js 隐藏部分*/
+		.psn{
+			position:absolute;
+			width: 250px;
+			height: 91px;
+			background:#fffdf8;
+			border-radius:5px;
+			border:1px solid #ededed;
+			top:18px;
+			left:90px;
+			z-index:2;
+			opacity:.8;
+			color:#000;
+			display:none; */
+		}
+		.psn p{
+			line-height: 22px;
+		}
+		.psn .p1,.htmln .p1,.cssn .p1,.jsn .p1{
+			margin:10px 0 0 0;
+		}
+		.htmln{
+			width: 360px;
+			height: 66px;
+			background:#fffdf8;
+			border-radius:5px;
+			border:1px solid #ededed;
+			position:absolute;
+			left:90px;
+			top:18px;
+			z-index:2;
+			opacity:.8;
+			color:#000;
+			display: none;
+		}
+		.htmln p,.cssn p,.jsn p{
+			line-height: 22px;
+		}
+		.cssn{
+			width: 360px;
+			height: 90px;
+			background:#fffdf8;
+			border-radius:5px;
+			border:1px solid #ededed;
+			position:absolute;
+			left:90px;
+			top:18px;
+			z-index:2;
+			opacity:.8;
+			color:#000;
+			display: none;
+		}
+		.jsn{
+			width: 340px;
+			height: 112px;
+			background:#fffdf8;
+			border-radius:5px;
+			border:1px solid #ededed;
+			position:absolute;
+			left:90px;
+			top:18px;
+			z-index:2;
+			opacity:.8;
+			color:#000;
+			display:none;
+		}
+		#web{
+			margin:35px 0 0 0;
+			height: 353px;
+			background: #fafafa;
+			padding-top: 36px;
+		}
+		#web h1{
+			
+			line-height: 55px;
+			font-size:36px;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+		}
+		#web h2{
+			color:#999;
+			line-height: 48px;
+			font-size:30px;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+		}
+		#web ul{
+			margin:30px 0 0 0;
+		}
+		#web ul li{
+			float:left;
+			height: 150px;
+		}
+		#web ul li.pds{
+			transition:.4s all ease;
+		}
+		#web ul li.name{
+			width: 407px;
+			margin-top:12px;
+			
+		}
+		#web ul li.pds:hover{
+			transform:rotate(360deg);
+		}
+		#web ul li.name1{
+			margin-top:12px;
+		}
+		#web ul li p{
+			line-height: 27px;
+			text-align:left;
+			font-size:15px;
+		}
+		#web .pds{
+			margin-right: 26px;
+		}
+		#web .pds a{
+			display: block;
+			width: 150px;
+			height: 150px;
+			background: url('../img/pds.png') no-repeat;
+		}
+		.tt{
+			height: 450px;
+			background: #fafafa;
+		}
+		.t1{
+			padding-top:37px;
+			line-height: 55px;
+			font-size:36px;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+		}
+		.t2{
+			margin-bottom:30px;
+			color:#999;
+			line-height: 48px;
+			font-size:30px;
+			font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+		}
+		.job{
+			border-left:4px solid #999;
+			height: 240px;
+			position: relative;
+			margin-bottom:65px;
+		}
+		.job .blue{
+			width: 170px;
+			padding-top:19px;
+			float: left;
+		}
+		.job .blue span{
+
+			position:absolute;
+			left:-11px;
+			top:19px;
+			float:left;
+			display: block;
+			width: 18px;
+			height: 18px;
+			background: #3498db;
+			border-radius:50%;
+		}
+		.job .blue a{
+			text-align:left;
+		}
+		.job .blue img{
+			margin:10px 0 0 10px;
+			transition:.4s all ease;
+		}
+		.job .blue img:hover{
+			transform:rotateY(180deg);
+		}
+		.job .content{
+			float: left;
+			margin-top:70px;
+		}
+		.job .content a{
+			text-align: left;
+			font-size: 20px;
+			color:#999;
+		}
+		.job .content p{
+			text-align:left;
+			line-height: 40px;
+			font-size:15px;
+		}
+		.job .content .p1{
+			margin-top:24px;
+		}
+		.project{
+			height: 830px;
+			padding-top:37px;
+		}
+		
+		.project1 .pl{
+			float: left;
+			width: 590px;
+			text-align:left;
+		}
+
+		.project1 .pl h2 a{
+			font-size:20px;
+			font-weight:bold;
+			line-height: 33px;
+		}
+		.project1 .pl span{
+			float: left;
+			color:#fff;
+			text-align:center;
+			line-height: 25px;
+			display: block;
+			height: 25px;
+			border-radius: 4px;
+			margin-right:5px;
+			cursor:pointer;
+		}
+		.project1 .pl .css{
+			width: 35px;
+			background: #ff9900;
+			
+		}
+		.project1 .pl .css3{
+			width: 40px;
+			background: aqua;
+		}
+		.project1 .pl .html{
+			width: 45px;
+			background: #80bd01;
+		}
+		.project1 .pl .js{
+			width: 75px;
+			background: #FF34B3	;
+		}
+		.project1 .pl div{
+			width: 590px;
+			height: 25px;
+			margin-bottom:6px;
+		}
+		.project1 .pl p{
+			line-height: 27px;
+		}
+		.project1 .pl .address{
+			float:right;
+			width: 100px;
+			height:48px;
+			background: #638ce0;
+			text-align:center;
+			line-height: 48px;
+			color:#fff;
+			border-radius:5px;
+			font-size:16px;
+		}
+		.project1 .pr{
+			float:right;
+			transition:.4s all ease;
+		}
+		.project1 .pr:hover{
+			transform:scale(1.1);
+		}
+		.project1 .l2{
+			margin-top:30px;
+		}
+		.project1 .l2 .pr2{
+			margin-top:40px;
+		}
+		.project1 .l2 .jsx .address{
+			margin:50px 50px 0 0;
+			float:left;
+			width: 100px;
+			height:48px;
+			background: #638ce0;
+			text-align:center;
+			line-height: 48px;
+			color:#fff;
+			border-radius:5px;
+			font-size:16px;
+			position:relative;
+		}
+		.project1 .l2 .jsx .address div{
+			position:absolute;
+			width: 100px;
+			height: 100px;
+			background: #fffdf8;
+    		border-radius: 5px;
+   			border: 1px solid #ededed;
+			bottom:-90px;
+			right:-90px;
+			z-index:2;
+			opacity: .8;
+    		color: #000;
+    		line-height: 26px;
+    		display: none;
+		}
+		.project1 .l2 .jsx .meizi div,.project1 .l2 .jsx .clock div{
+			height: 110px;
+			width: 110px;
+			bottom:-100px;
+			right:-100px;
+		}
+		.project1 .l2 .jsx .audio:hover #audio,.project1 .l2 .jsx .fish:hover #fish,.project1 .l2 .jsx .meizi:hover #meizi,.project1 .l2 .jsx .clock:hover #clock,.project1 .l2 .jsx .slider:hover #slider,.project1 .l2 .jsx .photo:hover #photo{
+			display: block;
+			-webkit-box-shadow:1px 1px 10px #000;
+		}
+		
+		.project1 .l2 .jsx .address:hover,.project1 .pl .address:hover{
+			-webkit-box-shadow:0px 0px 10px #000;
+		}
+		.project1 .l2 .jsx .h5{
+			background:#00EE76	;
+		}
+		.skill li{
+			font-size:16px;
+			text-align:left;
+			padding: 10px 0;
+			border-radius:5px;
+			transition:1s all ease;
+		}
+		.skill li:hover{
+			-webkit-box-shadow:0px 0px 10px #000;
+			transform:translate(50px,0);
+			cursor:pointer;
+		}
+		.skill{
+			margin-bottom:40px;
+		}
